@@ -108,12 +108,12 @@ DATABASES = dict(DEFAULT_DATABASES)
 POLL_INTERVAL  = 15
 SMS_LIMIT      = 10
 DB_CONCURRENCY = 50
-TOKEN          = "8899754944:AAHQbx-_3glcYQtOptR1ID1wHK02vTrvdwQ"
-BOT_USERNAME   = "Otp4y545bot"
+TOKEN          = "8681614138:AAF6izaq1eOrb69Q9QSVi9ni84SZKcRyPIE"
+BOT_USERNAME   = "@ShownXPanelbot"
 DB_FILE        = "bot_database.json"
 
 ADMIN_IDS: set[int] = {
-    8819228820,
+    7660357725,
 }
 
 # ═══════════════════════════════════════════════════════
