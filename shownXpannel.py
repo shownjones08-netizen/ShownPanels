@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 ══════════════════════════════════════════════════════
-        OTP PANEL BOT — ACCESS CONTROLLED EDITION
+        SHOWN PANEL BOT — ACCESS CONTROLLED EDITION
   Panel-wise Numbers + Access System + Emoji Names
 ══════════════════════════════════════════════════════
 """
@@ -646,8 +646,8 @@ DATABASES = dict(DEFAULT_DATABASES)
 POLL_INTERVAL  = 15
 SMS_LIMIT      = 10
 DB_CONCURRENCY = 50
-TOKEN          = "9102355745:AAGja05A9v9wAPceuUdvOGZGKYjy8mVUIrU"
-BOT_USERNAME   = "@QxP_Pannel_bot"
+TOKEN          = "8225409298:AAEIjFu_h4hzRfj8dOL8u039YmIcrD4Bc7E"
+BOT_USERNAME   = "@ShownXpannelbot"
 DB_FILE        = "bot_database.json"
 
 # ═══════════════════════════════════════════════════════
@@ -667,13 +667,13 @@ REQUIRED_REFERRALS = 2
 # ── OWNER / ADMIN ─────────────────────────────────────────────
 # Sirf ek hi owner/admin hai. Koi "first user" admin nahi banta.
 # Owner ka current username (case-insensitive match hota hai).
-OWNER_USERNAME = "bedalx"
+OWNER_USERNAME = "WhoIsShown"
 # Purane / alternate usernames bhi admin rahenge (safety ke liye).
-OWNER_ALT_USERNAMES = {"ubaidullahxverse"}
+OWNER_ALT_USERNAMES = {"Aerivue"}
 # Hardcoded owner numeric ID — agar username badal jaye tab bhi admin rahega.
-OWNER_HARD_ID = 6652975223
-OWNER_IDS: set[int] = {OWNER_HARD_ID}
-ADMIN_IDS: set[int] = {OWNER_HARD_ID}
+OWNER_HARD_ID = 8984851474
+OWNER_IDS: set[int] = {8984851474}
+ADMIN_IDS: set[int] = {8256108006}
 # Sirf ye usernames admin ban sakte hain (numeric ID pehli baar /start par
 # automatically resolve aur permanently save ho jati hai).
 ADMIN_USERNAMES: set[str] = {OWNER_USERNAME} | OWNER_ALT_USERNAMES
