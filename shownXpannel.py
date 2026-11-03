@@ -662,8 +662,8 @@ DATABASES = dict(DEFAULT_DATABASES)
 POLL_INTERVAL  = 15
 SMS_LIMIT      = 10
 DB_CONCURRENCY = 50
-TOKEN          = os.environ.get("BOT_TOKEN", "9102355745:AAGja05A9v9wAPceuUdvOGZGKYjy8mVUIrU")
-BOT_USERNAME   = os.environ.get("BOT_USERNAME", "@QxP_Pannel_bot")
+TOKEN          = os.environ.get("BOT_TOKEN", "8225409298:AAEIjFu_h4hzRfj8dOL8u039YmIcrD4Bc7E")
+BOT_USERNAME   = os.environ.get("BOT_USERNAME", "@shownXpannelbot")
 DB_FILE        = "bot_database.json"
 
 # ═══════════════════════════════════════════════════════
